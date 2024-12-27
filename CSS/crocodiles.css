@@ -11,11 +11,11 @@
 
  /*default styles for whole page*/
  body{
-    color: black;
-    border-color: darkgoldenrod;
-    background-color: #ffffff;
-
+    color: rgb(3, 51, 14);
+    border-color: rgb(0, 0, 0);
+    background-color: #f7f1dd;
  }
+
 
  /* content contianer to centre content */
  .container {
@@ -26,16 +26,42 @@
 
  /* Default styling for Headings */
  h1,h2,h3,h4,h5,h6 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Monika, tall and slim;
     line-height: 1.1;
     font-weight: 700;
  }
 
- /*specific styles*/
- h1 {
-    font-size: 4.25rem;
-    margin-bottom: 2rem;
-    font-weight: 900;
+ .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ .navbar li {
+    float: left;
+  }
+  
+ .navbar li a {
+    display: block;
+    color: rgb(242, 239, 204);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ .navbar li a:hover {
+    background-color: #111;
+  }
+ 
+
+     /*specific styles*/
+         h1 {
+            font-size: 4.25rem;
+                margin-bottom: 2rem;
+                   font-weight: 900;
  }
 
  
@@ -73,9 +99,8 @@ font-style: normal;
 
 /*paragraph large */
 p.large {
-    font-family: "Playfair Display", Georgia, 'Times New Roman', Times,
-    serif;
-    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
     font-style: italic;
     line-height: 1.5;
     font-size: 1.5rem;
@@ -89,7 +114,7 @@ ul {
         margin-left: 1.25rem;
         }
         ul li {
-        font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 400;
         line-height: 1.5;
         font-size: 1.125rem;
@@ -101,14 +126,14 @@ a {
     font-family:inherit;
     font-size:inherit;
     line-height: inherit;
-    color: #006bc3;
+    color: #5c0802;
     }
     
 a:hover {
- color:#00447B;
+ color:#04521b;
  }
 a:visited {
-color:#6f35d2;
+color:#025f22;
  }
 
 /* images*/
@@ -122,7 +147,7 @@ img {
     
     /*blockquote*/
 figure.quote {
-    border-left: 8px solid #f1db7a;
+    border-left: 8px solid #027f45;
     padding:1.5rem 0 1.5rem 2rem;
     margin-bottom: 2rem;
     }
@@ -141,6 +166,7 @@ footer {
 padding: 1.5rem 0 1.5rem 0;
 margin-top:2rem;
 border-top:1px solid #101010;
+color: #025f22;
 }
 
 main{
@@ -148,7 +174,7 @@ main{
     }
 
     header{
-        border-bottom:2px solid #101010;
+    
         padding:1.5rem 0;
         }
         header p.logo{
@@ -160,19 +186,26 @@ main{
 
         .colour-block{
             padding:3rem 0 3rem 0;
-            background-color:#CBD7DF;
+            background-color:#fffbec;
             margin-bottom:2.5rem;
             }
             
             .highlight {
-                background-color: #D8415C;
+                background-color: #088505;
                 padding:0 0.5rem;
                 }
                 
+                
+/* images*/
+img { 
     
-
- 
-        
+    max-width: 1020px;
+    width:100%;
+    height:auto;
+    border:1px solid #101010;
+    margin-bottom: 2rem;
+    }
+    
 
 
        
